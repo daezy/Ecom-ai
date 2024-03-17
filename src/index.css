@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* text-white bg-[] */
+.link:has(a.active) {
+  background-color: #161e0c !important;
+  color: white !important;
+  border: 1px solid #fff112;
+  border-top: 4px solid #fff112;
+}
+
+/* border-t-4 border-solid border-[#FFF112] border-b */
