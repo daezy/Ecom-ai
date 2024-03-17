@@ -21,7 +21,7 @@ img {
 .link:has(a.active) {
   background-color: #161e0c !important;
   color: white !important;
-  border: 1px solid #fff112;
+  /* border-bottom: 1px solid #fff112; */
   border-top: 4px solid #fff112;
 }
 
